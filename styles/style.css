@@ -16,6 +16,15 @@
     display: block;
     width: 100%;
 }
+.default-button:hover {
+    background-color: transparent;
+}
+.default-button:focus {
+    outline: none;
+    border:none;
+    background-color: #6B3DA3;
+    color: #fff;
+}
 
 
 .banner {
@@ -85,6 +94,10 @@
 }
 .selected li {
     color: #fff;
+}
+.selected li::marker {
+    color: rgb(93, 91, 91);
+    font-weight: bold;
 }
 .budget .input {
     width: 45%;

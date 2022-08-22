@@ -149,16 +149,16 @@
                                 </div>
                             </div>
                             <div class="budget mt-4">
-                                <h4 class="title text-center mb-5">Selected-V</h4>
+                                <h4 class="title text-center mb-5">Budget</h4>
                                 <div class="budget_content">
                                     <div class="d-flex justify-content-between align-items-center flex-nowrap mb-3">
-                                        <label for="per_player" class="text-light">Per Player</label>
-                                        <input id="per_player" class="input" type="text">
+                                        <label for="player_cost" class="text-light">Per Player</label>
+                                        <input id="player_cost" class="input" type="text">
                                     </div>
-                                    <button class="btn default-button  rounded-0 mb-3">Calculate</button>
+                                    <button id="calc_player_cost" class="btn default-button  rounded-0 mb-3">Calculate</button>
                                     <div class="d-flex justify-content-between align-items-center flex-nowrap mb-3">
-                                        <p for="per_player" class="text-light">Player Expenses</p>
-                                        <p class="text-light">$5000</p>
+                                        <p class="text-light">Player Expenses</p>
+                                        <p class="text-light">$<span id="player_total">0000</span></p>
                                     </div>
                                     <div class="d-flex justify-content-between align-items-center flex-nowrap mb-3">
                                         <label for="manager" class="text-light">Manager</label>
@@ -168,10 +168,10 @@
                                         <label for="coach" class="text-light">Coach</label>
                                         <input id="coach" class="input" type="text">
                                     </div>
-                                    <button class="btn default-button  rounded-0 mb-3">Calculate Total</button>
+                                    <button id="tatal_cost" class="btn default-button  rounded-0 mb-3">Calculate Total</button>
                                     <div class="d-flex justify-content-between align-items-center flex-nowrap">
-                                        <p for="per_player" class="text-light fw-bold">Total</p>
-                                        <p class="text-warning">$15000</p>
+                                        <p class="text-light fw-bold">Total</p>
+                                        <p class="text-warning">$<span id="total_cost">00000</span></p>
                                     </div>
                                 </div>
                             </div>
