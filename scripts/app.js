@@ -6,6 +6,7 @@ function getInputValue(inputId){
     return inputValueNumber;
 }
 
+
 document.getElementById('calc_player_cost').addEventListener('click', function(){
     const playerCost = getInputValue('player_cost')
     const playerTotal = document.getElementById('player_total');
