@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.title {
+    font-family: 'Croissant One', cursive;
+    color: #fff;
+}
+.default-button {
+    background-color: #6B3DA3;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px 25px;
+    display: block;
+    width: 100%;
+}
+
+
+.banner {
+    padding: 160px 0;
+    background-color: #000;
+    position: relative;
+    /* overflow: hidden; */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.885), rgba(0, 0, 0, 0.924)), url(../image/banner-bottom.png);
+    background-position:bottom center;
+    background-size: cover;
+}
+.banner_info {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+.banner_info h1.title {
+    color: orange;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.banner_info h1.title span {
+    position: relative;
+    display: inline-block;
+}
+.banner_info h1.title span::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 130%;
+    height: 100px;
+    background-image: url(../image/banner-underline.png);
+    background-size: cover;
+    background-position: center;
+    transform: translateY(60%);
+}
+.banner_info p {
+    color: #fff;
+}
+.banner_man {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 350px;
+    z-index: 5;
+}
+
+
+/* select section  */
+.select {
+    background-color: #151515;
+}
+.select .card {
+    background-color: #0C0C0C;
+    border-color: rgb(70, 69, 69);
+    border-radius: 0;
+}
+
+
+.selected, .budget {
+    background-color: #0C0C0C;
+    padding: 40px 25px;
+}
+.selected p {
+    color: #fff;
+}
