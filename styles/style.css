@@ -52,6 +52,7 @@
 .banner_info h1.title span {
     position: relative;
     display: inline-block;
+    font-family: 'Croissant One', cursive;
 }
 .banner_info h1.title span::before {
     content: "";
