@@ -69,7 +69,7 @@
 
 
 /* select section  */
-.select {
+.select, footer {
     background-color: #151515;
 }
 .select .card {
@@ -83,6 +83,14 @@
     background-color: #0C0C0C;
     padding: 40px 25px;
 }
-.selected p {
+.selected li {
     color: #fff;
+}
+.budget .input {
+    width: 45%;
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    outline: none;
 }
