@@ -27,3 +27,16 @@ document.getElementById('tatal_cost').addEventListener('click', function(){
     const PrevTotalCost = document.getElementById('total_cost');
     PrevTotalCost.innerText = newTotalCost;
 })
+
+
+const selectButtons = document.getElementsByClassName('select_btn');
+for(const selectButton of selectButtons){
+    selectButton.addEventListener('click', function(event){
+        const playerName = event.target.parentNode.childNodes[1].innerText;
+        const selectedPlayer = document.getElementById('selected_player');
+        const li = document.createElement('li');
+        li.innerText = playerName;
+        li.classList.add('mb-3')
+        selectedPlayer.appendChild(li);
+    })
+};
