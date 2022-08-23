@@ -41,5 +41,6 @@ for(const selectButton of selectButtons){
             return alert("You can't add more than five name")
         }
         selectedPlayer.appendChild(li);
+        event.target.disabled = true;
     })
 }
