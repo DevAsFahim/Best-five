@@ -37,6 +37,9 @@ for(const selectButton of selectButtons){
         const li = document.createElement('li');
         li.innerText = playerName;
         li.classList.add('mb-3')
+        if(selectedPlayer.childElementCount > 4){
+            return alert("You can't add more than five name")
+        }
         selectedPlayer.appendChild(li);
     })
-};
+}
