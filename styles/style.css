@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+::selection{
+    background-color: #aaa;
+    color: #000;
+}
 .title {
     font-family: 'Croissant One', cursive;
     color: #fff;
